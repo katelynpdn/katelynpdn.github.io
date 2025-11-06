@@ -1,0 +1,75 @@
+---
+layout: archive
+title: "Conferences"
+permalink: /conferences/
+author_profile: true
+---
+
+<ol>
+  <li>
+<h2>TechCon 2025</h2>
+<p>Sept. 7 - Sept. 10, 2025</p>
+<h3>A Fast, Efficient Host Filtering Approach with BioBloom Tools</h3>
+<p>
+  Host filtering is a critical process in metagenomics that removes host DNA in
+  samples containing mixed genetic material, thereby isolating target DNA. This
+  process is vital in understanding microbial ecosystems—failing to filter out
+  host DNA would lead to analysis on both target and pathogen reads, skewing
+  analysis of a microbial ecosystem. Current state-of-the-art host filtering
+  methods, such as BWA and Bowtie 2, rely on alignment-based techniques that
+  match DNA fragments against host reference genomes. While effective, these
+  methods introduce unnecessary complexities, slowing down the filtering process
+  due to their reliance on exact pairwise alignments rather than simple
+  membership checks. We used BioBloom Tools, which employs a Bloom filter—a fast
+  and space-efficient probabilistic data structure. This approach ensures
+  efficient time lookup complexity and reduced memory requirements, making it
+  ideal for processing large datasets. Our BioBloom Tools approach yielded
+  perfect accuracy when run on 900,000 simulated SARS-CoV-2 paired-end reads and
+  99,184 Hg38 paired-end reads, with zero false positives and negatives. We
+  maintained rapid processing times, with Hg38 bloom filter creation taking
+  approximately 30 minutes and consuming 7.46 GB of memory. Runtime metrics
+  illustrated a walltime of 9:54.78 using 8 threads. Our results indicate that
+  BioBloom Tools improve speed and memory efficiency compared to traditional
+  SOTA techniques, while maintaining accuracy, highlighting the potential of
+  probabilistic methods to accelerate host filtering in metagenomic analysis.
+  Future work will involve testing BioBloom Tools on real biological data to
+  assess whether it maintains the same level of accuracy as observed.
+</p>
+</li>
+
+<li>
+<h2>Summer Undergraduate Conference at the University of Iowa</h1>
+<p>July 30, 2025</p>
+<h3>Characterizing Adhesin Families in Opportunistic Yeast Pathogens</h3>
+<p>
+Fungal adhesins are cell wall proteins that adhere to other cells and surfaces, and are essential for pathogenesis. Opportunistic yeast pathogens are a huge risk to immunocompromised patients, causing over 3.75 million deaths annually. Previously, our lab has published findings that the emergence of pathogenic yeast is linked with rapid expansion and diversification of the HIL (Hyr/Iff) adhesin family. 
+To further investigate this finding in all adhesin families, our goal is to computationally identify all putative adhesins in published proteomes in the Saccharomycotina subphylum. We built a bioinformatics pipeline that identified proteins with a high FungalRV score (an adhesin machine learning predictor), predicted signal peptide, and predicted GPI anchor. We tested our pipeline on the following five yeast species: Candida albicans, Candida auris, Candida glabrata, Kluyveromyces lactis, and Saccharomyces cerevisiae. In the resulting putative adhesins, we found enriched Serine/Threonine Frequency, Tandem Repeats, and Beta-aggregation. To test our hypothesis on a small scale, we then analyzed the phylogenomics of a previously curated list of one adhesin family’s homologs (ALS). We found that the ALS adhesin family has independently expanded several times, including within the pathogenic Candida/Lodderomyces clade. The ALS findings support our hypothesis for another adhesin family, and we aim to test our hypothesis for the entire adhesinome. 
+Using our pipeline, we will ultimately analyze the evolutionary history of the adhesinome among pathogenic yeast clades.
+</p>
+<a href="https://www.thinglink.com/view/scene/2012270918608355814"
+  >Online Poster and Videos</a
+>
+</li>
+
+<li>
+<h2>
+  48th Annual West Coast Biological Sciences Undergraduate Research Conference
+</h1>
+<p>April 12, 2025</p><span>Outstanding Poster Presentation Award </span>
+<h3>Reactive Cortical Microglia after Spinal Cord Injury: Implications for Primary Motor Neuron Regeneration.
+</h3>
+<p>Spinal cord injury (SCI) is a severe condition that prevents central nervous system (CNS) neurons from regenerating. This limitation arises from both an inhibitory environment at the lesion site and the intrinsic inability of adult neurons to regrow axons. Recent research efforts aim to develop novel SCI therapies to enhance axonal regeneration and functional recovery. After injury, CNS inflammation triggers the activation of immune cells, including microglia and macrophages. While these cells play crucial roles in the immune response, their activity can be detrimental to neural plasticity and regeneration. Studies have demonstrated  that microglia modulate synaptic connectivity in the brain and contribute to synaptic pruning in neurodegenerative diseases. Our previous results revealed increased cortical microglial and concurrent synaptic loss after SCI. In the present study we hypothesize that increased microglial activation in the motor cortex following spinal cord injury contributes to synaptic loss, thereby impeding corticospinal tract plasticity and regeneration. To investigate the effects of injury-derived factors on the cortex, we transferred cerebrospinal fluid (CSF) from injured animals to healthy animals. This transfer resulted in cortical microglial activation and subsequent reduction in axonal growth of cortical neurons in the recipient animals. To further confirm whether activated microglia directly affects axonal plasticity, we induced CNS inflammation and microglial activation by administrating Lipopolysaccharide (LPS) intraperitoneally following SCI. Subsequently, we cultured cortical neurons from LPS-treated and vehicle-treated animals for seven days. Our results indicated a trend towards reduced axonal length in the LPS-treated group, supporting the hypothesis that microglia can directly influence cortical neuronal regeneration. This study advances our understanding of microglial involvement in cortical neuron plasticity and regeneration following SCI. Our future objective is to identify therapeutic strategies to modulate microglial reactivity, aiming to develop effective regenerative therapies for spinal cord injury.
+</p>
+</li>
+</ol>
+
+
+<!-- 
+{% if site.talkmap_link == true %}
+
+<p style="text-decoration: underline">
+  <a href="/talkmap.html">See a map of all the places I've given a talk!</a>
+</p>
+
+{% endif %} {% for post in site.talks reversed %} {% include
+archive-single-talk.html %} {% endfor %} -->
