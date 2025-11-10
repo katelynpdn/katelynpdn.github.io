@@ -2,7 +2,7 @@
 title: "Modulating Microglial Activation to Elicit Axonal Regeneration"
 collection: publications
 category: manuscripts
-excerpt: "This research addresses corticospinal regeneration in spinal cord injury, aiming that modulating cortical microglial reactivity can be a strategy to overcome the regenerative limitations of CST neurons, potentially improving patient outcomes."
+excerpt: "This research addresses corticospinal regeneration in spinal cord injury. Modulating cortical microglial reactivity can be a strategy to overcome the regenerative limitations of CST neurons, potentially improving patient outcomes."
 date: 2025-07-09
 venue: "Journal of Neurotrauma"
 citation: "Ramos Cavalcanti, R., Nguyen, K., Chang, E., Almeida, F., Blanco Martinez, A. M., & Marques de Freria, C. (2025). Modulating microglial activation to elicit axonal regeneration [Abstract DB16]. Journal of Neurotrauma, 42(13–14), e1109–e1229. https://doi.org/10.1089/neu.2025.86661.abstract"
