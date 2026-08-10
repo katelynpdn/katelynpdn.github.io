@@ -21,5 +21,6 @@ You can read one of my recent **NSF research posters** [here](https://www.thingl
 
 # Web Development
 
-As a full-stack web developer with **Triton Software Engineering**, I contributed to pages and assets for two websites: [Veteran Sisters and 4FLOT](https://tritonse.github.io/projects/).  
-I am also currently designing and building the **Undergraduate Bioinformatics Club** website independently — you can see my current progress [here](https://ubic-ucsd.web.app/).
+As an applied technology intern at Vertex, I collaborated with scientists to program web tools for lab automation, visualization, and chemical inventory management through .NET and SQL.
+I independently designed and built the [**Undergraduate Bioinformatics Club** website](https://ubic-at-ucsd.web.app/).
+As a full-stack (MERN) web developer with **Triton Software Engineering**, I contributed to pages and assets for two websites: [Veteran Sisters and 4FLOT](https://tritonse.github.io/projects/).
