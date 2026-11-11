@@ -11,11 +11,10 @@ I am a **Computer Science and Bioinformatics** major at **UC San Diego** with ex
 
 # Computational Biology
 
-As an undergraduate researcher, I am involved in several projects, including:
+As an undergraduate researcher, I have worked on several projects, including:
 
 - Developing a **computational pipeline for adhesin classification**, including a machine learning classifier model
 - **Benchmarking** new host filtration programs
-- Performing **RNA-seq analysis** on spinal cord injury datasets
 
 You can read one of my recent **NSF research posters** [here](https://www.thinglink.com/view/scene/2012270918608355814).
 

@@ -9,86 +9,75 @@ redirect_from:
 
 {% include base_path %}
 
-# Education
+## Education
 
-- B.S. in Computer Science with a Specialization in Bioinformatics (2023-2027)
+**University of California, San Diego** — La Jolla, CA  
+_B.S. Computer Science, Bioinformatics Specialization | GPA: 3.94_  
+September 2023 – June 2027
 
-  - University of California San Diego, 3.99 GPA
-  - Minor in Biology
+- **Relevant Coursework:** Neurobiology, Organic Chemistry, Molecular Biology, Statistics, Linear Algebra, Molecular Sequence Analysis, Machine Learning, Data Structures, Systems Programming, Linux Tools, Algorithms, Parallel Computing
+- **Honors:** Computer Science Honors Program; Society for Information Management San Diego Scholar
 
-# Skills
+## Relevant Experience
 
-- Languages: C++, Python, Java, ARM Assembly, R, JavaScript, TypeScript
-- Systems Tools: Linux, Bash, Docker, Kubernetes, Amazon S3
-- Developer Tools: Git, React, MongoDB, Node.js, Express
+### NSF REU Research Intern
 
-# Research and Technical Experience
+**University of Iowa, Evolutionary Sciences** | May 2025 – October 2026
 
-- NSF REU Research Intern (05/2025 – Present)
+- Developed a computational pipeline to investigate the evolutionary history of adhesin proteins in yeast pathogens.
+- Analyzed and visualized proteomic datasets using R, Python, and Bash to characterize evolutionary patterns in adhesin proteins.
 
-  - University of Iowa, Evolutionary Sciences
-  - Developed computational pipeline to analyze evolutionary history of adhesin proteins in yeast pathogens
-  - Wrote Python, Bash, and R scripts to parse and visualize large proteomic datasets
-  - Building machine learning model to classify adhesins based on proteomic data
+### Computational Research Assistant
 
-- Computational Undergraduate Researcher (11/2024 – Present)
+**System Energy Efficiency Lab & Knight Lab** | November 2024 – December 2026
 
-  - System Energy Efficiency Lab and Knight Lab, University of California San Diego
-  - Benchmarking metagenomic host filtering tools using AWS, Kubernetes and Docker
-  - Built Python scripts for compressing phylogenetic trees in a mutation-annotated format for data compactness
-  - Gained experience in high-performance computing workflows and data-intensive systems
+- Benchmarked metagenomic host-filtering tools to evaluate computational approaches for separating host and microbial sequencing reads; presented findings at TechCon 2025.
+- Built Python scripts for compressing phylogenetic trees in a mutation-annotated format to improve data compactness.
 
-- Neuroscience Research Assistant (04/2024 – 11/2025)
+### Neuroscience Research Assistant
 
-  - Tuszynski Lab - Center for Neural Repair
-  - Analyzed RNA-seq data to identify differentially expressed genes for spinal cord injury therapies
-  - Automated microscopy image analysis using ImageJ macros to support spinal cord injury research
-  - Extracted neuron data using microscopy, cryostat, microtome, immunostaining wet-lab techniques
-  - Outstanding Poster Presentation Award at the 48th Annual WCBSURC on reactive cortical microglia after SCI
+**Tuszynski Lab – Center for Neural Repair** | April 2024 – November 2025
 
-- AI Student Researcher (06/2022 – 08/2022)
+- Performed tissue preparation, cryostat and microtome sectioning, immunostaining, and microscopy.
+- Conducted quantitative microscopy image analysis using ImageJ macros to support spinal cord injury research.
+- Received the Outstanding Poster Presentation Award at the 48th WCBSURC for research on reactive cortical microglia following spinal cord injury.
 
-  - UCSF AI4ALL Program
-  - Applied machine learning to MRI scans to identify schizophrenia biomarkers, achieving 80% validation accuracy
-  - Used Scikit-learn, NumPy, and Pandas for data preprocessing, feature extraction, and model development
+### Discovery Core Applied Technology Intern
 
-# Software Projects
+**Vertex Pharmaceuticals** | June 2026 – September 2026
 
-- Webmaster (07/2025 – Present)
+- Developed software tools to automate and streamline laboratory processes for a cross-functional drug discovery team.
+- Built .NET/C# web applications with Oracle SQL integration for inventory tracking and database validation.
+- Replaced a 10+ step workflow spanning four legacy sites with a single application, improving efficiency and accuracy.
 
-  - UCSD Bioinformatics Club
-  - Building full-stack redesign of club site using React and Firebase for site content and data storage
+## Additional Experience
 
-- Frontend and Backend Developer (12/2023 – 03/2025)
+### Advanced Data Structures Tutor
 
-  - Triton Software Engineering Organization
-  - Programmed a fully onboarded website for nonprofit 4FLOT, with an admin portal and database integration
-  - Built dynamic website pages and assets with React and MongoDB, integrated a Node.js/Express email service
+**UC San Diego Computer Science Department** | January 2025 – June 2026
 
-- Machine Learning Kit Developer (12/2023 – 04/2024)
+- Provided weekly tutoring to students in a course serving 400+ students, explaining complex concepts with patience and clarity.
+- Adapted communication to individual learning needs and supported students in navigating challenging problems.
 
-  - CS Foreach TritonHacks
-  - Created a Python-based starter kit for ML education (NumPy, Pandas, Scikit-learn) for TritonHacks 2024
-  - Provided hands-on guidance with data preprocessing, model training, and evaluation
+### Dinner Service Volunteer
 
-# Leadership and Teaching
+**PATH Connections Housing** | September 2025 – Present
 
-- Advanced Data Structures Tutor (01/2025 – Present)
-  - UCSD Computer Science Department
-  - Provide weekly tutoring for 400+ students in C++, assisting with complex graph algorithms and data structures
+- Prepare and serve meals to residents experiencing housing insecurity and assist with kitchen cleanup.
+- Collaborate with volunteers to support daily meal services and maintain a welcoming environment.
 
-Advanced Python Course Coordinator (11/2021 - 01/2022)
+### Webmaster
 
-- Codeucate Organization
-- Assisted in planning and teaching an Advanced Python course about data structures, visualization, and libraries
+**UC San Diego Bioinformatics Club** | July 2025 – Present
 
-CSFirst Program Leader (04/2022 - 09/2022)
+- Built a full-stack redesign of the organization's website using React and Firebase for site content and data storage.
 
-- Willow Glen Library
-- Introduced K-6 class to computer science by leading weekly classes, guided block coding projects
+## Technical Skills
 
-# Publications
+- **Programming & Data Analysis:** Python, R, SQL, C++, Bash, Linux, Git
+- **Computational Research:** Bioinformatics, metagenomic analysis, phylogenetic analysis, biological data visualization, machine learning
+- **Laboratory Techniques:** Microbial culturing, immunostaining, microscopy, tissue sectioning
 
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+## Publication
+
+- **Modulating Microglial Activation to Elicit Axonal Regeneration.** _Journal of Neurotrauma_, 2025. ([Abstract](#))
